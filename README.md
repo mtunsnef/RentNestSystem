@@ -1,5 +1,6 @@
 # 🏡 HỆ THỐNG CHO THUÊ PHÒNG TRỌ - RENTNEST
 
+
 ✔️ **RentNestSystem** là nền tảng hỗ trợ đăng tin cho thuê – tìm kiếm phòng trọ hiện đại, tích hợp nhiều công nghệ mới như AI, OAuth2, Real-time chat, và thanh toán trực tuyến, giúp kết nối người thuê, chủ trọ (Landlord) và quản trị viên (Admin/Staff) một cách hiệu quả và an toàn.
 
 🌐 [Truy cập hệ thống tại đây](https://bluedreamhouse.runasp.net)
@@ -32,7 +33,6 @@
 
 ## 🧱 Cấu trúc Project
 
-```
 
 RentNestSystem.sln
 ├── RentNest.Core           # Entity, Enum, Constant, Helpers, Configs, Business logic base
@@ -64,10 +64,8 @@ RentNestSystem.sln
 
 ### 1. Clone source code
 
-```bash
 git clone https://github.com/mtunsnef/RentNestSystem.git
-cd RentNestSystem
-````
+cd Rent_Nest_System
 
 ### 2. Cấu hình `appsettings.json`
 
@@ -119,7 +117,6 @@ dotnet run --project RentNest.Web
 * Các thao tác nhạy cảm như đăng bài, duyệt bài, thanh toán đều kiểm tra role rõ ràng.
 * Tích hợp login Google/Facebook đảm bảo an toàn xác thực người dùng.
 * Tương tác AI có cơ chế ghi log & kiểm soát theo vai trò người dùng.
-
 ---
 
 ## 📬 Liên hệ
